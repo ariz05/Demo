@@ -6,7 +6,7 @@ public class JenkinsJobs {
   @Test
   public void demo() {
 	  
-	  System.out.println("Welcome to Jenkins");
+	  System.out.println("Welcome to Jenkins world");
 	  
 	  
   }
