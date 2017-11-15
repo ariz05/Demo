@@ -9,6 +9,7 @@
       <class name="JenkinsJobs.JenkinsShow">
         <methods>
           <include name="demo2"/>
+          <include name="EndTest"/>
         </methods>
       </class> <!-- JenkinsJobs.JenkinsShow -->
     </classes>

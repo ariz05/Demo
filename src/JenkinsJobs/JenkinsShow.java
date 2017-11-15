@@ -6,9 +6,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -30,14 +27,8 @@ public class JenkinsShow {
 			WebDriver driver = new ChromeDriver();
 				
 			System.out.print("Welcome to Selenium World!!");
-		
-			/*DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 
-			capabilities.setCapability("marionette", true);
-	    
-			driver = new FirefoxDriver(capabilities);*/
-
-		    	driver.manage().window().maximize();
+		    driver.manage().window().maximize();
 
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
