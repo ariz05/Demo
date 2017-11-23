@@ -53,11 +53,7 @@ public class JenkinsShow {
 	  
   }
 
-@AfterMethod
-public void EndTest()
-{
-	driver.quit();
-}
+
 }
 
 
