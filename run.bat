@@ -1,1 +1,1 @@
-java -cp C:/Users/arizr/workspace/Jenkins/bin;C:/Users/arizr/workspace/Jenkins/lib/* org.testng.TestNG jenkins.xml
+java -cp master/Demo/bin;master/Demo/lib/* org.testng.TestNG jenkins.xml
